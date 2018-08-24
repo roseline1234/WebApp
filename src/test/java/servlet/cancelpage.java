@@ -58,6 +58,7 @@ public class cancelpage extends HttpServlet {
 							out.println("<th style="+"color:#9a965b;"+">Date</th>");
 							out.println("<th style="+"color:#9a965b;"+">Status</th>");
 							out.println("</tr>");
+							//test
 							while(rs.next())
 							{
 								String tn=rs.getString("tnum");
